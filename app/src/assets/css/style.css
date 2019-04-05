@@ -1,0 +1,77 @@
+.navbar {
+  min-height: 3rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: .0625rem solid #ececec;
+}
+
+.navbar-item.is-mega {
+  position: static;
+}
+.navbar-item.is-mega .is-mega-menu-title {
+  margin-bottom: 0;
+  padding: .375rem 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2.875rem;
+  padding-bottom: 2.5rem;
+  padding-left: 2.875rem;
+  margin-top: 5px;
+  width: auto;
+  color: #fff;
+  border-radius: 6.25rem;
+  text-decoration: none;
+  -webkit-transition: background-color .2s;
+  -o-transition: background-color .2s;
+  transition: background-color .2s;
+}
+
+.button--green {
+  background-color: #00c853;
+}
+
+.logo {
+  width: 40px;
+  height: 100%;
+}
+
+.is-4 {
+  border: .0625rem solid #f5f5f5;
+}
+
+.is-4:hover {
+  border-color: #aaa;
+  z-index: 1;
+}
+
+.card {
+  -webkit-box-shadow: 0 2px 3px rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  color: #4a4a4a;
+  position: relative;
+}
+
+.column__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+a.navbar-item:hover, .breadcrumb a:hover {
+  color: #ff4c4e;
+}
+
+.navbar-link.is-active, a.navbar-item.is-active {
+  color: #ff4c4e;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 3rem 1.5rem 6rem;
+}
